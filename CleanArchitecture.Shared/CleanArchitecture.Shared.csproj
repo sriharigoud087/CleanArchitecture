@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\CleanArchitecture.Shared.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\CleanArchitecture.Shared.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\CleanArchitecture.Shared.deps.json" />
+    <Content Include="obj\CleanArchitecture.Shared.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net8.0\CleanArchitecture.Shared.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\CleanArchitecture.Shared.dll" />
+    <None Include="bin\Debug\net8.0\CleanArchitecture.Shared.pdb" />
+    <None Include="obj\CleanArchitecture.Shared.csproj.nuget.g.props" />
+    <None Include="obj\CleanArchitecture.Shared.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net8.0\CleanArchitecture.Shared.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\CleanArchitecture.Shared.assets.cache" />
+    <None Include="obj\Debug\net8.0\CleanArchitecture.Shared.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\CleanArchitecture.Shared.dll" />
+    <None Include="obj\Debug\net8.0\CleanArchitecture.Shared.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\CleanArchitecture.Shared.pdb" />
+    <None Include="obj\Debug\net8.0\refint\CleanArchitecture.Shared.dll" />
+    <None Include="obj\Debug\net8.0\ref\CleanArchitecture.Shared.dll" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Constants\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Logging\" />
+  </ItemGroup>
+
+</Project>
